@@ -27,6 +27,8 @@
         _newsImageView.backgroundColor = [UIColor redColor];
         _newsImageView.contentMode = UIViewContentModeScaleAspectFill;
         _newsImageView.clipsToBounds = YES;
+        // 图片圆角
+        _newsImageView.layer.cornerRadius = 10;
         [self.contentView addSubview:_newsImageView];
     }
     return _newsImageView;
